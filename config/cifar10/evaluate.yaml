@@ -1,0 +1,5 @@
+action: evaluate
+dataset: cifar10
+arch: resnet34
+wm_type: MemEnc
+checkpoint_path: /path/to/last.pt

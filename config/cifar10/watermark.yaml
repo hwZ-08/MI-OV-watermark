@@ -1,0 +1,11 @@
+action: watermark
+dataset: cifar10
+batch_size: 128
+arch: resnet34
+epochs: 40
+lr: 0.01
+bits: 512
+wm_type: MemEnc
+from_pretrained: True
+clean_model_path: /path/to/last.pt
+save_trigger: True

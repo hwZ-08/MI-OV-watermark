@@ -1,0 +1,10 @@
+action: watermark
+dataset: cifar10
+batch_size: 128
+arch: resnet34
+epochs: 80
+lr: 0.01
+bits: 512
+wm_type: noise
+from_pretrained: False
+save_trigger: True

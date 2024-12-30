@@ -1,0 +1,9 @@
+action: attack
+dataset: cifar10
+batch_size: 128
+arch: resnet34
+epochs: 20
+lr: 0.001
+victim_path: /path/to/last.pt
+attack_type: prune
+wm_type: noise
